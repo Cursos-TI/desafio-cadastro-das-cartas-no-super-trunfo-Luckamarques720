@@ -93,19 +93,14 @@ int main() {
   printf("\n*-*-* Carta 1 *-*-*\n");
 
   printf("\n Letra: %c \n", Estado1);
-  printf("\n-*-*-*-*-*-*-*-*-*-*-*-*\n");
   printf("Código da Carta: %s \n", Cod_carta1);
-  printf("\n-*-*-*-*-*-*-*-*-*-*-*-*\n");
   printf("Cidade: %s \n" , cidade1);
-  printf("\n-*-*-*-*-*-*-*-*-*-*-*-*\n");
   printf("População: %d habitantes \n", população1);
-  printf("\n-*-*-*-*-*-*-*-*-*-*-*-*\n");
   printf("Área: %.2f km² \n", Area1);
-  printf("\n-*-*-*-*-*-*-*-*-*-*-*-*\n");
   printf("PIB: %.2f bilhões de reais \n", PIB1);
-  printf("\n-*-*-*-*-*-*-*-*-*-*-*-*\n");
+  
   printf("Pontos turísticos: %d \n", Pontos_turisticos1);
-  printf("\n-*-*-*-*-*-*-*-*-*-*-*-*\n");
+  
   printf("\n-*-*-*-*-*-*-*-*-*-*-*-*\n");
 
    /*Dados da segunda carta*/
@@ -113,19 +108,13 @@ int main() {
    printf("\n*-*-* Carta 2 *-*-*\n");
 
    printf("\n Letra: %c \n", Estado2);
-   printf("\n-*-*-*-*-*-*-*-*-*-*-*-*\n");
    printf("\nCódigo da Carta: %s \n", Cod_carta2);
-   printf("\n-*-*-*-*-*-*-*-*-*-*-*-*\n");
    printf("Cidade: %s \n", cidade2);
-   printf("\n-*-*-*-*-*-*-*-*-*-*-*-*\n");
    printf("População: %d habitantes \n", população2);
-   printf("\n-*-*-*-*-*-*-*-*-*-*-*-*\n");
    printf("Área: %.2f km² \n", Area2);
-   printf("\n-*-*-*-*-*-*-*-*-*-*-*-*\n");
    printf("\nPIB: %.2f bilhões de reais \n", PIB2);
-   printf("\n-*-*-*-*-*-*-*-*-*-*-*-*\n");
    printf("Pontos turísticos: %d \n", Pontos_turisticos2);
-   printf("\n-*-*-*-*-*-*-*-*-*-*-*-*\n");
+   
    printf("\n-*-*-*-*-*-*-*-*-*-*-*-*\n");
    
     return 0;
