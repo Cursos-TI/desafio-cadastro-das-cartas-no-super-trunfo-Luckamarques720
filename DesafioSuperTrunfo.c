@@ -5,7 +5,7 @@ int main() {
    char Estado1;
    char Cod_carta1[4];
    char cidade1[50];
-   int população1;
+   int populacao1;
    float Area1;
    float PIB1;
    int Pontos_turisticos1;
@@ -15,7 +15,7 @@ int main() {
    char Estado2;
    char Cod_carta2[4];
    char cidade2[50];
-   int população2;
+   int populacao2;
    float Area2;
    float PIB2;
    int Pontos_turisticos2;
@@ -32,14 +32,15 @@ int main() {
    printf("Código da Carta: ");
    scanf("%s", &Cod_carta1);
 
+   getchar();
+
    /*Pede o nome da cidade*/
    printf("Nome da Cidade: ");
-   getchar(); 
    fgets(cidade1, sizeof(cidade1), stdin);
 
    /*Pede a população*/
    printf("População: ");
-   scanf("%d", &população1);
+   scanf("%d", &populacao1);
 
    /*Pede a Área*/
    printf("Área: ");
@@ -65,14 +66,15 @@ int main() {
   printf("Código da Carta: ");
   scanf("%s", &Cod_carta2);
 
+  getchar();
+
   /*Pede o nome da cidade*/
   printf("Nome da Cidade: ");
-  getchar(); 
   fgets(cidade2, sizeof(cidade2), stdin);
 
   /*Pede a população*/
   printf("População: ");
-  scanf("%d", &população2);
+  scanf("%d", &populacao2);
 
   /*Pede a Área*/
   printf("Área: ");
@@ -96,9 +98,9 @@ int main() {
  
   printf("\n Código da Carta: %s \n", Cod_carta1);
  
-  printf("\n Cidade: %s \n" , cidade1);
+  printf("\n Cidade: %s " , cidade1);
  
-  printf("\n População: %d habitantes \n", população1);
+  printf("\n População: %d habitantes \n", populacao1);
  
   printf("\n Área: %.2f km² \n", Area1);
  
@@ -116,9 +118,9 @@ int main() {
 
    printf("\n Código da Carta: %s \n", Cod_carta2);
 
-   printf("\n Cidade: %s \n", cidade2);
+   printf("\n Cidade: %s ", cidade2);
 
-   printf("\n População: %d habitantes \n", população2);
+   printf("\n População: %d habitantes \n", populacao2);
 
    printf("\n Área: %.2f km² \n", Area2);
 
